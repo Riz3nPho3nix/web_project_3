@@ -1,0 +1,144 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__website/place__website.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    width: 928px;
+  }
+
+  .place__title {
+    width: 440px;
+    margin: 0 32px 48px 0;
+  }
+
+  .place__image {
+    width: 440px;
+    height: 440px;
+    margin: 0;
+  }
+
+  .place__website {
+    width: 456px;
+    margin: 0 0 48px 0;
+  }
+
+  .place__paragraph {
+    margin: 0 0 0 32px;
+    width: 456px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    margin-bottom: 72px;
+  }
+
+  .place__title {
+    width: calc(50% - 38px);
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0 28px 48px 0;
+  }
+
+  .place__website {
+    width: calc(50% - 38px);
+    margin-bottom: 48px;
+  }
+
+  .place__website_heading {
+    line-height: 12px;
+  }
+
+  .place__image {
+    width: calc(50% - 38px);
+    width: calc(50% - 38px);
+  }
+
+  .place__paragraph {
+    margin: 0 0 0 28px;
+    width: calc(50% - 38px);
+  }
+
+  .place__paragraph_info {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place {
+    display: block;
+  }
+
+  .place__title {
+    width: 320px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 32px auto;
+  }
+
+  .place__website {
+    display: none;
+  }
+
+  .place__image {
+    display: block;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto 32px auto;
+  }
+
+  .place__paragraph {
+    display: block;
+    margin: 0 auto;
+    width: 288px;
+  }
+
+  .place__paragraph_info {
+    margin: 0 auto 24px auto;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 32px 16px;
+  }
+
+  .place__website {
+    display: none;
+  }
+
+  .place__image {
+    width: 320px;
+    height: 320px;
+    margin: 0 0 32px 0;
+  }
+
+  .place__paragraph {
+    display: block;
+    margin: 0 auto;
+    width: 288px;
+  }
+
+  .place__paragraph_info {
+    margin: 0 auto 24px auto;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,8 @@
+.footer__links {
+  margin-right: 18px;
+  list-style-type: none;
+}
+
+.footer__links:last-of-type {
+  margin-right: 0;
+}

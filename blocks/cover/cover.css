@@ -1,0 +1,37 @@
+@import url(./__image/cover__image.css);
+@import url(./__title/cover__title.css);
+@import url(./__text/cover__text.css);
+
+.cover {
+  position: relative;
+  margin: 0 auto 92px auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .cover__image {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__image {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__image {
+    min-height: 200px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .cover__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

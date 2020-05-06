@@ -1,0 +1,9 @@
+.place__website_heading {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: .2em;
+  margin: 0 0 12px 0;
+}

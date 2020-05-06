@@ -1,0 +1,8 @@
+@import url(./_info/place__paragraph_info.css);
+
+.place__paragraph {
+  margin: 0 0 0 40px;
+  width: 484px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,2 +1,41 @@
-@import url();
+@import url(./__logo/header__logo.css);
+@import url(./__link-list/header__link-list.css);
+@import url(./__links/header__links.css);
+@import url(./__link/header__link.css);
+@import url(./__link/_active/header__link_active.css);
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 984px;
+  margin: 34px auto 58px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+.header {
+  width: 288px;
+}
+
+  .header__logo {
+    width: 156px;
+    height: 36px;
+  }
+
+  .header__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+}

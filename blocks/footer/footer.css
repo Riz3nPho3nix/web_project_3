@@ -12,16 +12,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    width: 168px;
-    display: block;
-  }
-
+@media screen and (max-width: 450px) {
   .footer__link-list {
     flex-direction: column;
     margin: 0;
@@ -38,6 +29,13 @@
 
   .footer__links:last-of-type {
     margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 168px;
+    display: block;
   }
 
 .footer__copyright {

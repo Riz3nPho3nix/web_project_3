@@ -1,0 +1,20 @@
+{
+  "name": "web_project_3",
+  "version": "1.0.0",
+  "description": "### Overview * Intro * Figma * Images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riz3nPho3nix/web_project_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riz3nPho3nix/web_project_3/issues"
+  },
+  "homepage": "https://github.com/Riz3nPho3nix/web_project_3#readme"
+}

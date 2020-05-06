@@ -61,7 +61,6 @@
 
   .place__image {
     width: calc(50% - 38px);
-    width: calc(50% - 38px);
   }
 
   .place__paragraph {

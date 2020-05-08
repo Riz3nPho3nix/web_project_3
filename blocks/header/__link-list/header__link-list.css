@@ -2,4 +2,5 @@
   display: flex;
   flex-wrap: nowrap;
   list-style-type: none;
+  margin: 0;
 }

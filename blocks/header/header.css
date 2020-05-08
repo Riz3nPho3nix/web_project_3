@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 1024px) {
   .header {
+    margin-bottom: 50px;
     width: calc(100% - 96px);
   }
 }

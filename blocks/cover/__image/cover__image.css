@@ -9,11 +9,11 @@
   background-position-x: center;
   text-decoration: none;
   flex-direction: column;
-  color: white;
+  color: #fff;
   z-index: 0;
 }
 
-.cover__image:before {
+.cover__image::before {
   content: "";
   height: 100%;
   width: 100%;
@@ -26,7 +26,7 @@
   transition-duration: .3s;
 }
 
-.cover__image:hover:before {
+.cover__image:hover::before {
   opacity: .8;
 }
 

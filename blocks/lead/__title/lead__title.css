@@ -6,3 +6,25 @@
   font-weight: 900;
   line-height: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__title {
+    font-size: 62px;
+    line-height: 66px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin: 0 auto 16px auto;
+    width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

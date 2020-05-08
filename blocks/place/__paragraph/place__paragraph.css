@@ -1,8 +1,36 @@
-@import url(./_info/place__paragraph_info.css);
-
 .place__paragraph {
   margin: 0 0 0 40px;
   width: 484px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__paragraph {
+    margin: 0 0 0 32px;
+    width: 456px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__paragraph {
+    margin: 0 0 0 28px;
+    width: 352px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .place__paragraph {
+    display: block;
+    margin: 0 auto;
+    width: 288px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    display: block;
+    margin: 0 auto;
+    width: 288px;
+  }
 }

@@ -1,4 +1,4 @@
-.place__website_heading {
+.place__website-heading {
   text-transform: uppercase;
   color: #aaa;
   font-size: 12px;
@@ -6,4 +6,10 @@
   font-weight: 400;
   letter-spacing: .2em;
   margin: 0 0 12px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__website-heading {
+    line-height: 12px;
+  }
 }

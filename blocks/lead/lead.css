@@ -12,24 +12,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    width: 768px;
-  }
-
-  .lead__image {
     width: 928px;
-  }
-
-  .lead__caption {
-    margin-left: 24px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead {
-    width: 100%;
-  }
-
-  .lead__image {
     width: 100%;
   }
 }
@@ -38,51 +26,10 @@
   .lead {
     width: 100%;
   }
-
-  .lead__title {
-    width: calc(100% - 48px);
-  }
-
-  .lead__subtitle {
-    width: calc(100% - 48px);
-  }
-
-  .lead__image {
-    width: 100%;
-  }
-
-}
-
-@media screen and (max-width: 600px) {
-  .lead__title {
-    font-size: 62px;
-    line-height: 66px;
-  }
-
-  .lead__subtitle {
-    font-size: 22px;
-    line-height: 28px;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
     width: 320px;
-  }
-  .lead__title {
-    margin: 0 auto 16px auto;
-    width: 288px;
-    font-size: 40px;
-    line-height: 44px;
-  }
-  .lead__subtitle {
-    margin-bottom: 40px;
-    width: 288px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  .lead__caption {
-    margin-left: 16px;
   }
 }

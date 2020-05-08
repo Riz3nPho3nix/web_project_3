@@ -1,12 +1,28 @@
-@import url(./_heading/place__website_heading.css);
-@import url(./_link/place__website_link.css);
-
 .place__website {
-  height: 46px;
   width: 456px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 48px;
   align-self: end;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__website {
+    width: 456px;
+    margin: 0 0 48px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place__website {
+    width: 352px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    display: none;
+  }
 }

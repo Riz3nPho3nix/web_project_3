@@ -2,7 +2,7 @@
   width: 456px;
   display: inline-block;
   margin-bottom: 48px;
-  align-self: end;
+  align-self: flex-end;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

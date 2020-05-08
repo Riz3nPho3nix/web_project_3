@@ -19,6 +19,7 @@
     .photo-grid__list {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
+      grid-gap: 16px;
     }
   }
   

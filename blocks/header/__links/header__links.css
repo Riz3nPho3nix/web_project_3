@@ -1,5 +1,6 @@
 .header__links {
   color: #fff;
+  align-self: flex-end;
 }
 
 .header__links:first-of-type {

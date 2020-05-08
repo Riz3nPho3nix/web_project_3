@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
   .lead {
     width: 100%;
   }
@@ -24,12 +24,14 @@
 
 @media screen and (max-width: 768px) {
   .lead {
+    margin-bottom: 88px;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
+    margin-bottom: 64px;
     width: 320px;
   }
 }

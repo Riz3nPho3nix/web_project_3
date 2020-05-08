@@ -2,4 +2,12 @@
   display: flex;
   list-style-type: none;
   padding: 0;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__link-list {
+    flex-direction: column;
+    margin: 0;
+  }
 }

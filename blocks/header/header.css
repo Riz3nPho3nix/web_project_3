@@ -24,18 +24,7 @@
 }
 
 @media screen and (max-width: 320px) {
-.header {
-  width: 288px;
-}
-
-  .header__logo {
-    width: 156px;
-    height: 36px;
+  .header {
+    width: 288px;
   }
-
-  .header__link {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
 }

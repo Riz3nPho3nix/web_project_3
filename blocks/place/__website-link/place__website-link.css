@@ -1,4 +1,4 @@
-.place__website_link {
+.place__website-link {
   text-transform: none;
   text-decoration-line: underline;
   color: white;
@@ -8,6 +8,6 @@
   transition-delay: .3s;
 }
 
-.place__website_link:hover {
+.place__website-link:hover {
   opacity: .8;
 }
